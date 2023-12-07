@@ -335,3 +335,12 @@ INCBIN "data/tilesets/omanyte_word_room_metatiles.bin"
 
 TilesetAerodactylWordRoomMeta::
 INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin"
+
+TilesetCavernGFX::
+INCBIN "gfx/tilesets/cavern.2bpp.lz"
+
+TilesetCavernMeta::
+INCBIN "data/tilesets/cavern_metatiles.bin"
+
+TilesetCavernColl::
+INCLUDE "data/tilesets/cavern_collision.asm"

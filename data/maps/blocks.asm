@@ -962,6 +962,9 @@ Route39Barn_Blocks:
 VictoryRoad_Blocks:
 	INCBIN "maps/VictoryRoad.blk"
 
+VictoryRoad1F_Blocks:
+	INCBIN "maps/VictoryRoad1F.blk"
+
 Route23_Blocks:
 	INCBIN "maps/Route23.blk"
 
