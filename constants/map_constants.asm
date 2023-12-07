@@ -155,6 +155,8 @@ ENDM
 	map_const SAFARI_ZONE_BETA,                            10, 18 ; 90
 	map_const VICTORY_ROAD,                                10, 36 ; 91
 	map_const VICTORY_ROAD_1F,                             10,  9 ; 92
+	map_const VICTORY_ROAD_2F,                             15,  9 ; 93
+	map_const VICTORY_ROAD_3F,                             15,  9 ; 94
 	endgroup
 
 	newgroup ECRUTEAK                                             ;  4

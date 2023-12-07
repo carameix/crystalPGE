@@ -696,4 +696,6 @@ ENDM
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $00, 0
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $00, 0
 	map_attributes VictoryRoad1F, VICTORY_ROAD_1F, $7D, 0
+	map_attributes VictoryRoad2F, VICTORY_ROAD_2F, $7D, 0
+	map_attributes VictoryRoad3F, VICTORY_ROAD_3F, $7D, 0
 	
