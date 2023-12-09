@@ -3110,7 +3110,7 @@ wTeamRocketBaseB2FSceneID::                       db
 wTeamRocketBaseB3FSceneID::                       db
 wGoldenrodUndergroundSwitchRoomEntrancesSceneID:: db
 wSilverCaveRoom3SceneID::                         db
-wVictoryRoadSceneID::                             db
+wVictoryRoad3FSceneID::                           db
 wDragonsDenB1FSceneID::                           db
 wDragonShrineSceneID::                            db
 wOlivinePortSceneID::                             db

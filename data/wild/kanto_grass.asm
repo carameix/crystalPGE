@@ -114,7 +114,63 @@ KantoGrassWildMons:
 	db 15, GOLBAT
 	end_grass_wildmons
 
-	def_grass_wildmons VICTORY_ROAD
+	def_grass_wildmons VICTORY_ROAD_1F
+	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
+	; morn
+	db 34, GRAVELER
+	db 32, RHYHORN
+	db 33, ONIX
+	db 34, GOLBAT
+	db 35, SANDSLASH
+	db 35, RHYDON
+	db 35, RHYDON
+	; day
+	db 34, GRAVELER
+	db 32, RHYHORN
+	db 33, ONIX
+	db 34, GOLBAT
+	db 35, SANDSLASH
+	db 35, RHYDON
+	db 35, RHYDON
+	; nite
+	db 34, GOLBAT
+	db 34, GRAVELER
+	db 32, ONIX
+	db 36, GRAVELER
+	db 38, GRAVELER
+	db 40, GRAVELER
+	db 40, GRAVELER
+	end_grass_wildmons
+
+	def_grass_wildmons VICTORY_ROAD_2F
+	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
+	; morn
+	db 34, GRAVELER
+	db 32, RHYHORN
+	db 33, ONIX
+	db 34, GOLBAT
+	db 35, SANDSLASH
+	db 35, RHYDON
+	db 35, RHYDON
+	; day
+	db 34, GRAVELER
+	db 32, RHYHORN
+	db 33, ONIX
+	db 34, GOLBAT
+	db 35, SANDSLASH
+	db 35, RHYDON
+	db 35, RHYDON
+	; nite
+	db 34, GOLBAT
+	db 34, GRAVELER
+	db 32, ONIX
+	db 36, GRAVELER
+	db 38, GRAVELER
+	db 40, GRAVELER
+	db 40, GRAVELER
+	end_grass_wildmons
+
+	def_grass_wildmons VICTORY_ROAD_3F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 34, GRAVELER

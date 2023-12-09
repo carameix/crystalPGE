@@ -153,10 +153,9 @@ ENDM
 	map_const ROCK_TUNNEL_B1F,                             15, 18 ; 88
 	map_const SAFARI_ZONE_FUCHSIA_GATE_BETA,                5,  4 ; 89
 	map_const SAFARI_ZONE_BETA,                            10, 18 ; 90
-	map_const VICTORY_ROAD,                                10, 36 ; 91
-	map_const VICTORY_ROAD_1F,                             10,  9 ; 92
-	map_const VICTORY_ROAD_2F,                             15,  9 ; 93
-	map_const VICTORY_ROAD_3F,                             15,  9 ; 94
+	map_const VICTORY_ROAD_1F,                             10,  9 ; 91
+	map_const VICTORY_ROAD_2F,                             15,  9 ; 92
+	map_const VICTORY_ROAD_3F,                             15,  9 ; 93
 	endgroup
 
 	newgroup ECRUTEAK                                             ;  4
