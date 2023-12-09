@@ -11,18 +11,21 @@ VictoryRoad2F_MapScripts:
 	
 	def_callbacks
 
+VictoryRoad2FBoulder:
+	jumpstd StrengthBoulderScript
+
 VictoryRoad2F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	;warp_event  8, 17, VICTORY_ROAD_GATE, 5
-	;warp_event  9, 17, VICTORY_ROAD_GATE, 6
-	;warp_event  1, 49, VICTORY_ROAD, 3
-	;warp_event  1, 35, VICTORY_ROAD, 2
-	;warp_event 13, 31, VICTORY_ROAD, 5
-	;warp_event 13, 17, VICTORY_ROAD, 4
-	;warp_event 17, 33, VICTORY_ROAD, 7
-	;warp_event 17, 19, VICTORY_ROAD, 6
+	warp_event   0,  8, VICTORY_ROAD_1F, 3
+	warp_event  23,  7, VICTORY_ROAD_3F, 1
+	warp_event   1,  1, VICTORY_ROAD_3F, 2
+	warp_event  25, 14, VICTORY_ROAD_3F, 3
+	warp_event  27,  7, VICTORY_ROAD_3F, 4
+	warp_event  29,  7, ROUTE_23, 3
+	warp_event  29,  8, ROUTE_23, 4
+	warp_event  22, 16, VICTORY_ROAD_3F, 5
 	;warp_event  0, 11, VICTORY_ROAD, 9
 	;warp_event  0, 27, VICTORY_ROAD, 8
 	;warp_event 13,  5, ROUTE_23, 3
@@ -36,6 +39,8 @@ VictoryRoad2F_MapEvents:
 	;bg_event  3, 65, BGEVENT_ITEM, VictoryRoadHiddenFullHeal
 
 	def_object_events
+	object_event  4,  14, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoad2FBoulder, -1
+	object_event  5,   5, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoad2FBoulder, -1
 	;object_event 18, 13, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_VICTORY_ROAD
 	;object_event  3, 28, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadTMEarthquake, EVENT_VICTORY_ROAD_TM_EARTHQUAKE
 	;object_event 12, 48, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadMaxRevive, EVENT_VICTORY_ROAD_MAX_REVIVE
