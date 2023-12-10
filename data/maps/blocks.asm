@@ -968,6 +968,9 @@ VictoryRoad2F_Blocks:
 VictoryRoad3F_Blocks:
 	INCBIN "maps/VictoryRoad3F.blk"	
 
+IndigoPlateau_Blocks:
+	INCBIN "maps/IndigoPlateau.blk"
+
 Route23_Blocks:
 	INCBIN "maps/Route23.blk"
 

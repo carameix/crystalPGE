@@ -243,6 +243,7 @@ INCLUDE "maps/BattleTowerOutside.asm"
 
 SECTION "Map Scripts 13", ROMX
 
+INCLUDE "maps/IndigoPlateau.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
 INCLUDE "maps/WillsRoom.asm"
 INCLUDE "maps/KogasRoom.asm"
