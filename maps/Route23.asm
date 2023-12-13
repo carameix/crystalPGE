@@ -2,16 +2,11 @@ Route23_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, Route23FlypointCallback
 
-Route23FlypointCallback:
-	setflag ENGINE_FLYPOINT_INDIGO_PLATEAU
-	endcallback
+Route23Sign:
+	jumptext Route23SignText
 
-IndigoPlateauSign:
-	jumptext IndigoPlateauSignText
-
-IndigoPlateauSignText:
+Route23SignText:
 	text "INDIGO PLATEAU"
 
 	para "The Ultimate Goal"
@@ -24,10 +19,10 @@ Route23_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  9,  5, INDIGO_PLATEAU_POKECENTER_1F, 1
-	warp_event 10,  5, INDIGO_PLATEAU_POKECENTER_1F, 2
-	warp_event  9, 13, VICTORY_ROAD_2F, 6
-	warp_event 10, 13, VICTORY_ROAD_2F, 7
+	;warp_event  9,  5, INDIGO_PLATEAU_POKECENTER_1F, 1
+	;warp_event 10,  5, INDIGO_PLATEAU_POKECENTER_1F, 2
+	;warp_event  9, 13, VICTORY_ROAD_2F, 6
+	;warp_event 10, 13, VICTORY_ROAD_2F, 7
 
 	def_coord_events
 

@@ -27,8 +27,8 @@ VictoryRoad2F_MapEvents:
 	warp_event   1,  1, VICTORY_ROAD_3F, 2
 	warp_event  25, 14, VICTORY_ROAD_3F, 3
 	warp_event  27,  7, VICTORY_ROAD_3F, 4
-	warp_event  29,  7, ROUTE_23, 3
-	warp_event  29,  8, ROUTE_23, 4
+	warp_event  29,  7, INDIGO_PLATEAU, 3
+	warp_event  29,  8, INDIGO_PLATEAU, 4
 	warp_event  22, 16, VICTORY_ROAD_3F, 5
 	
 	def_coord_events
