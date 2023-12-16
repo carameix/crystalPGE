@@ -52,4 +52,5 @@ Tilesets::
 	tileset TilesetAerodactylWordRoom
 	tileset TilesetCavern
 	tileset TilesetPlateau
+	tileset TilesetMuseum
 	assert_table_length NUM_TILESETS + 1

@@ -353,3 +353,12 @@ INCBIN "data/tilesets/plateau_metatiles.bin"
 
 TilesetPlateauColl::
 INCLUDE "data/tilesets/plateau_collision.asm"
+
+TilesetMuseumGFX::
+INCBIN "gfx/tilesets/museum.2bpp.lz"
+
+TilesetMuseumMeta::
+INCBIN "data/tilesets/museum_metatiles.bin"
+
+TilesetMuseumColl::
+INCLUDE "data/tilesets/museum_collision.asm"

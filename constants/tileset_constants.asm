@@ -38,6 +38,7 @@
 	const TILESET_AERODACTYL_WORD_ROOM ; 24
 	const TILESET_CAVERN
 	const TILESET_PLATEAU
+	const TILESET_MUSEUM
 DEF NUM_TILESETS EQU const_value - 1
 
 ; wTileset struct size
