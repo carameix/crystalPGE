@@ -18,8 +18,8 @@ Route23_MapEvents:
 
 	def_warp_events
 	warp_event  4, 15, VICTORY_ROAD_GATE, 1
-	;warp_event  7,121, VICTORY_ROAD_2F, 6
-	;warp_event  8,121, VICTORY_ROAD_2F, 7
+	warp_event  7,123, ROUTE_22_GATE, 1
+	warp_event  8,123, ROUTE_22_GATE, 2
 
 	def_coord_events
 

@@ -698,3 +698,4 @@ ENDM
 	map_attributes VictoryRoad2F, VICTORY_ROAD_2F, $7D, 0
 	map_attributes VictoryRoad3F, VICTORY_ROAD_3F, $7D, 0
 	map_attributes IndigoPlateau, INDIGO_PLATEAU, $0F, 0
+	map_attributes Route22Gate, ROUTE_22_GATE, $00, 0

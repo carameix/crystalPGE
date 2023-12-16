@@ -974,6 +974,9 @@ IndigoPlateau_Blocks:
 Route23_Blocks:
 	INCBIN "maps/Route23.blk"
 
+Route22Gate_Blocks:
+	INCBIN "maps/Route22Gate.blk"
+
 LancesRoom_Blocks:
 	INCBIN "maps/LancesRoom.blk"
 
