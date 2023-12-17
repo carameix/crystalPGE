@@ -3,25 +3,23 @@ Route22_MapScripts:
 
 	def_callbacks
 
-VictoryRoadEntranceSign:
-	jumptext VictoryRoadEntranceSignText
+Route22PokemonLeagueSign:
+	jumptext Route22PokemonLeagueSignText
 
-VictoryRoadEntranceSignText:
+Route22PokemonLeagueSignText:
 	text "#MON LEAGUE"
-
-	para "VICTORY ROAD"
-	line "ENTRANCE"
+	line "FRONT GATE"
 	done
 
 Route22_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 13,  5, ROUTE_22_GATE, 3
+	warp_event  8,  5, ROUTE_22_GATE, 3
 
 	def_coord_events
 
 	def_bg_events
-	bg_event 15,  7, BGEVENT_READ, VictoryRoadEntranceSign
+	bg_event 7,  11, BGEVENT_READ, Route22PokemonLeagueSign
 
 	def_object_events
