@@ -15,9 +15,6 @@ Route44_Blocks:
 Route28_Blocks:
 	INCBIN "maps/Route28.blk"
 
-BetaPlayersHouse2F_Blocks: ; unreferenced
-	INCBIN "maps/unused/BetaPlayersHouse2F.blk"
-
 CeladonCity_Blocks:
 	INCBIN "maps/CeladonCity.blk"
 
