@@ -53,4 +53,5 @@ Tilesets::
 	tileset TilesetCavern
 	tileset TilesetPlateau
 	tileset TilesetMuseum
+	tileset TilesetKantoForest
 	assert_table_length NUM_TILESETS + 1

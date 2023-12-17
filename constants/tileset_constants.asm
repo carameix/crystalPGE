@@ -39,6 +39,7 @@
 	const TILESET_CAVERN
 	const TILESET_PLATEAU
 	const TILESET_MUSEUM
+	const TILESET_KANTO_FOREST
 DEF NUM_TILESETS EQU const_value - 1
 
 ; wTileset struct size

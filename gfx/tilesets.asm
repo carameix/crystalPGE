@@ -188,11 +188,15 @@ INCLUDE "data/tilesets/underground_collision.asm"
 TilesetDarkCaveGFX::
 INCBIN "gfx/tilesets/dark_cave.2bpp.lz"
 
-UnusedTilesetJohtoMeta:: ; unreferenced
-INCBIN "data/tilesets/unused_johto_metatiles.bin"
+TilesetKantoForestGFX::
+INCBIN "gfx/tilesets/kanto_forest.2bpp.lz"
 
-UnusedTilesetJohtoColl:: ; unreferenced
-INCLUDE "data/tilesets/unused_johto_collision.asm"
+TilesetKantoForestMeta::
+INCBIN "data/tilesets/kanto_forest_metatiles.bin"
+
+TilesetKantoForestColl::
+INCLUDE "data/tilesets/kanto_forest_collision.asm"
+
 
 
 SECTION "Tileset Data 5", ROMX
